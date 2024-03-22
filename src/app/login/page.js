@@ -7,10 +7,15 @@ import {
     Typography,
   } from "@material-tailwind/react";
   import Cards from "../components/Cards";
+  import Navbar from "../components/Navbar";
    
   export default function SimpleRegistrationForm() {
     return (
+        <>
+        <div className=" bg-black">
+           
         <div className="flex justify-center items-center h-screen bg-black">
+            
        <Card color="transparent" shadow={false}>
         <Typography variant="h4" className=" text-center text-5xl font-extrabold font-pixel" color="white">
           Log In
@@ -54,7 +59,10 @@ import {
          
         </form>
       </Card>
+     
       
       </div>
+      </div>
+      </>
     );
   }

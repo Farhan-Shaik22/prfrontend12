@@ -10,9 +10,9 @@ export default function ProfileCard() {
       
         <div
           
-          className="flex flex-col mx-6 my-4 items-center w-96 border-4 border-blue-600 rounded-xl mob:w-full mob:mx-0"
+          className="flex flex-col mx-6 my-4 items-center w-96 border-4 border-white rounded-xl mob:w-full mob:mx-0"
         >
-          <div className=" p-4 bg-green-300 w-96 pl-24 border-x-4 border-blue-600 rounded-xl mob:w-full flex items-center">
+          <div className=" p-4 bg-green-300 w-96 pl-24 border-x-4 border-white rounded-xl mob:w-full flex items-center">
             <div className="w-48 h-48 relative flex justify-center items-center border-4 border-black rounded-full overflow-hidden">
               <Image src="/Vachan.jpeg"layout="fill" objectFit="cover" />
             </div>

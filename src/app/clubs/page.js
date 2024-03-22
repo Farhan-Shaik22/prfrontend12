@@ -1,11 +1,12 @@
 "use client"
 import React from "react";
-import Navbar from "../components/Navbar";
+
+import Cardsj from "../components/Cardsj";
 export default function clubs() {
   return (
     <>
-    <Navbar/>
-    
+
+    <Cardsj/>
     </>
   );
 }
