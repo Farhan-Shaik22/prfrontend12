@@ -20,9 +20,15 @@ export default function SimpleRegistrationForm() {
         mobile,
         password,
       });
+      window.alert("Successful Registration");
+      setTimeout(()=>
+      {
+        window.location.href = '/login';
+      },1500);
       console.log(response.data);
     } catch (error) {
       console.error(error.response.data);
+      window.alert("Unsuccessful Registration");
     }
   };
 
