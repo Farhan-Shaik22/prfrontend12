@@ -28,7 +28,7 @@ export default function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Pages
+          Home
         </a>
       </Typography>
       <Typography
@@ -38,7 +38,7 @@ export default function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Account
+          Clubs
         </a>
       </Typography>
       <Typography
@@ -48,19 +48,10 @@ export default function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Blocks
+          About Us
         </a>
       </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Docs
-        </a>
-      </Typography>
+      
     </ul>
   );
  
@@ -71,9 +62,9 @@ export default function StickyNavbar() {
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer text-3xl font-extrabold font-pixel py-1.5 font-medium"
+            className="mr-4 cursor-pointer text-2xl font-pixel py-1.5 font-medium"
           >
-            Public Relations
+            Public Relations 
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
@@ -83,14 +74,14 @@ export default function StickyNavbar() {
                 size="sm"
                 className="hidden lg:inline-block"
               >
-                <span>Log In</span>
+                <span> Log In</span>
               </Button>
               <Button
                 variant="gradient"
                 size="sm"
                 className="hidden lg:inline-block"
               >
-                <span>Sign in</span>
+                <span> Register </span>
               </Button>
             </div>
             <IconButton
