@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import Link from 'next/link';
 import {
@@ -52,8 +53,13 @@ export default function StickyNavbar() {
   );
 
   return (
-    <div className="-m- max-h-[768px] w-full mx-auto   overflow-scroll ">
-      <Navbar className="sticky top-0 z-10 h-max  max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+    <div className="w-full mx-auto">
+      <style jsx>{`
+        .navbar-container {
+          overflow-x: hidden;
+        }
+      `}</style>
+      <Navbar className="sticky top-0 z-10 max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 navbar-container">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -66,22 +72,22 @@ export default function StickyNavbar() {
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
               <Link href="/login">
-              <Button
-                variant="text"
-                size="sm"
-                className="hidden lg:inline-block"
-              >
-                <span > Log In</span>
-              </Button>
+                <Button
+                  variant="text"
+                  size="sm"
+                  className="hidden lg:inline-block"
+                >
+                  <span> Log In</span>
+                </Button>
               </Link>
               <Link href="/signup">
-              <Button
-                variant="gradient"
-                size="sm"
-                className="hidden lg:inline-block"
-              >
-                <span> Register </span>
-              </Button>
+                <Button
+                  variant="gradient"
+                  size="sm"
+                  className="hidden lg:inline-block"
+                >
+                  <span> Register </span>
+                </Button>
               </Link>
             </div>
             <IconButton
