@@ -3,13 +3,17 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {jwtDecode} from 'jwt-decode';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
+import duction from "../intro";
+
 
 export default function ClubTransaction() {
   const [club, setClub] = useState('');
   const [transactionId, setTransactionId] = useState('');
   const [rollNumber, setRollNumber] = useState('');
   const [token, setToken] = useState('');
-
+  const searchParams = new URLSearchParams(window.location.search);
+  const id = searchParams.get('id');
+  
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
     if (storedToken) {
@@ -71,6 +75,15 @@ export default function ClubTransaction() {
           Submit
         </Button>
       </form>
+      
+      <ul className="mt-4 text-center text-white">
+          {duction.all
+            .filter(profile => profile.id ===id)
+            .map((profile, index) => (
+              <li key={index}>{profile.name}</li>
+            ))
+          }
+        </ul>
     </div>
     </div>
     </div>

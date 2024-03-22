@@ -8,9 +8,9 @@ import { Button } from "@material-tailwind/react";
 
 export default function ProfileCard() {
 
-  const handleRegisterClick = () => {
-    // Redirect to the club registration page
-      window.location.href = '/clubreg';
+  const handleRegisterClick = (id) => {
+      // window.location.href = '/clubreg';
+      window.location.href = `/clubreg?id=${id}`;
   };
   return (
     <div className=" mt-4 grid grid-cols-3 mob:grid-cols-1 tab:grid-cols-2">
@@ -50,7 +50,7 @@ export default function ProfileCard() {
          </a>
        </div>
        
-       <Button size="lg" className=" mb-4" onClick={handleRegisterClick}>Register</Button>
+       <Button size="lg" className=" mb-4" onClick={() => handleRegisterClick(intro.id)}>Register</Button>
      </div>
       ))}
     </div>
