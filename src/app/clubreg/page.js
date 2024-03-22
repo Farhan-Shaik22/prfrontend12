@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {jwtDecode} from 'jwt-decode';
+import Image from 'next/image';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
 
 export default function ClubTransaction() {
@@ -43,22 +44,21 @@ export default function ClubTransaction() {
     <div>
       <div className='flex justify-end mt-8'>
         <div className='w-[40%]'>
-      <Typography variant="h4" className="text-center text-5xl font-extrabold font-pixel text-white">
-        Add Your Transaction ID
-      </Typography>
-      <Typography className="animate-pulse mt-5 text-center text-3xl font-bold font-pixel text-gray-400">
+      
+      <Typography className="animate-pulse mt-5 text-center text-5xl font-extrabold font-pixel text-gray-400">
           Last step to Nexus
         </Typography>
-      <form onSubmit={handleSubmit} className="mt-8 space-y-8 ">
-        <Input
-          type="text"
-          placeholder="Club"
-          value={club}
-          onChange={(e) => setClub(e.target.value)}
-          className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700 h-14  "
+        
+        <Image
+          src="/path_to_your_image" // Route of the image file
+          height={500} // Desired size in pixels
+          width={500} // Desired size in pixels
+          alt="Your Image"
         />
+      <form onSubmit={handleSubmit} className="mt-8 space-y-8 ">
+        
         <Typography variant="h6" color="white" className=" text-2xl">
-              Transaction ID
+             Add your Transaction ID
             </Typography>
         <Input
           type="text"
