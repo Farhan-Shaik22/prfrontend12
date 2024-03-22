@@ -41,28 +41,38 @@ export default function ClubTransaction() {
     <Card color="transparent" shadow={false} className="p-8 bg-black">
   {rollNumber ? (
     <div>
+      <div className='flex justify-end mt-8'>
+        <div className='w-[40%]'>
       <Typography variant="h4" className="text-center text-5xl font-extrabold font-pixel text-white">
-        Add Club & Transaction ID
+        Add Your Transaction ID
       </Typography>
-      <form onSubmit={handleSubmit} className="mt-6 space-y-4">
+      <Typography className="animate-pulse mt-5 text-center text-3xl font-bold font-pixel text-gray-400">
+          Last step to Nexus
+        </Typography>
+      <form onSubmit={handleSubmit} className="mt-8 space-y-8 ">
         <Input
           type="text"
           placeholder="Club"
           value={club}
           onChange={(e) => setClub(e.target.value)}
-          className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700"
+          className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700 h-14  "
         />
+        <Typography variant="h6" color="white" className=" text-2xl">
+              Transaction ID
+            </Typography>
         <Input
           type="text"
           placeholder="Transaction ID"
           value={transactionId}
           onChange={(e) => setTransactionId(e.target.value)}
-          className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700"
+          className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700 h-14"
         />
-        <Button type="submit" fullWidth className="bg-green-300 text-white font-bold font-pixel">
+        <Button type="submit" fullWidth className="bg-green-300 text-white font-bold text-2xl font-pixel h-14">
           Submit
         </Button>
       </form>
+    </div>
+    </div>
     </div>
   ) : (
     <Typography className="text-center text-2xl font-bold font-pixel text-white">
