@@ -7,7 +7,7 @@ const duction = {
         quote: "\" We are hosting some great events , which will make your day memorable, so please join if you like it \"",
 
        
-        insta:"https://www.instagram.com/vardaanwithnodhan/"
+        insta:"https://www.instagram.com/vachan.official/"
       },
     
       {
