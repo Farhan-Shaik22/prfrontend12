@@ -1,10 +1,17 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import duction from "../intro";
 import { Button } from "@material-tailwind/react";
 
+
 export default function ProfileCard() {
+
+  const handleRegisterClick = () => {
+    // Redirect to the club registration page
+      window.location.href = '/clubreg';;
+  };
   return (
     <div className=" mt-4 grid grid-cols-3 mob:grid-cols-1 tab:grid-cols-2">
       {duction.all.map((intro) => (
@@ -43,7 +50,7 @@ export default function ProfileCard() {
          </a>
        </div>
        
-       <Button size="lg" className=" mb-4" >Register</Button>
+       <Button size="lg" className=" mb-4" onClick={handleRegisterClick}>Register</Button>
      </div>
       ))}
     </div>

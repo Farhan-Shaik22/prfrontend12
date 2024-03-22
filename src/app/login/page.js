@@ -1,68 +1,68 @@
 'use client';
-import {
-    Card,
-    Input,
-    Checkbox,
-    Button,
-    Typography,
-  } from "@material-tailwind/react";
-  import Cards from "../components/Cards";
-  import Navbar from "../components/Navbar";
-   
-  export default function SimpleRegistrationForm() {
-    return (
-        <>
-        <div className=" bg-black">
-           
-        <div className="flex justify-center items-center h-screen bg-black">
-            
-       <Card color="transparent" shadow={false}>
-        <Typography variant="h4" className=" text-center text-5xl font-extrabold font-pixel" color="white">
+import React, { useState } from 'react';
+import axios from 'axios';
+import { Card, Input, Button, Typography } from "@material-tailwind/react";
+
+export default function LoginForm() {
+  const [rollNumber, setRollNumber] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('https://backend-fypg.onrender.com/api/login', {
+        rollNumber,
+        password,
+      });
+
+      localStorage.setItem('token', response.data.token);
+
+      // Redirect to the desired page after successful login
+      // Replace 'redirectToPage' with the actual page you want to redirect to
+      window.location.href = '/clubs';
+    } catch (error) {
+      console.error(error.response.data);
+    }
+  };
+
+  return (
+    <div className="flex justify-center items-center h-screen bg-black">
+      <Card color="transparent" shadow={false}>
+        <Typography variant="h4" className="text-center text-5xl font-extrabold font-pixel" color="white">
           Log In
         </Typography>
-        <Typography  className=" animate-pulse mt-5 text-center text-3xl font-bold font-pixel text-gray-400">
-            Key to Nexus Day-1
+        <Typography className="animate-pulse mt-5 text-center text-3xl font-bold font-pixel text-gray-400">
+          Key to Nexus Day-1
         </Typography>
-        <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+        <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96" onSubmit={handleSubmit}>
           <div className="mb-1 flex flex-col gap-6">
-           
             <Typography variant="h6" color="white" className="-mb-3">
               Hallticket Number
             </Typography>
             <Input
               size="lg"
-              placeholder="22BD1A1263"
-              className=" text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700"
-              labelProps={{
-                className: "before:content-none after:content-none",
-              }}
+              placeholder="Enter your hallticket number"
+              className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700"
+              value={rollNumber}
+              onChange={(e) => setRollNumber(e.target.value)}
             />
-             
-             
             <Typography variant="h6" color="white" className="-mb-3">
               Password
             </Typography>
             <Input
               type="password"
               size="lg"
-              placeholder="********"
-              className=" text-white  placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700"
-              labelProps={{
-                className: "before:content-none after:content-none",
-              }}
+              placeholder="Enter your password"
+              className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-         
-          <Button className="mt-6" fullWidth>
-            sign up
+          <Button type="submit" className="mt-6" fullWidth>
+            Log in
           </Button>
-         
         </form>
       </Card>
-     
-      
-      </div>
-      </div>
-      </>
-    );
-  }
+    </div>
+  );
+}
