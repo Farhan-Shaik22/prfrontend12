@@ -12,8 +12,14 @@ export default function ClubTransaction() {
   const [transactionId, setTransactionId] = useState('');
   const [rollNumber, setRollNumber] = useState('');
   const [token, setToken] = useState('');
-  const searchParams = new URLSearchParams(window.location.search);
-  const id = searchParams.get('id');
+  
+  const [id, setId] = useState(null);
+
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const idFromSearchParams = searchParams.get('id');
+    setId(idFromSearchParams);
+  }, []);
 
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
