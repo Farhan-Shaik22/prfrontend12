@@ -62,9 +62,10 @@ export default function ClubTransaction() {
             ))
           }
         <Image
-          src="/path_to_your_image" // Route of the image file
-          height={500} // Desired size in pixels
-          width={500} // Desired size in pixels
+          src="/qrreff.png" // Route of the image file
+          height={350} // Desired size in pixels
+          width={350} // Desired size in pixels
+          className='mt-5 ml-[20%]'
           alt="Your Image"
         />
       <form onSubmit={handleSubmit} className="mt-8 space-y-8 ">
