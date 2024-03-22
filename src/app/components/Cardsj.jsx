@@ -1,15 +1,17 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 import duction from "../intro";
 import { Button } from "@material-tailwind/react";
 
 export default function ProfileCard() {
-  const router = useRouter();
+  // const router = useRouter();
 
   const handleRegisterClick = (id) => {
-    router.push(`/clubreg?id=${id}`);
+    // router.push(`/clubreg?id=${id}`);
+    // window.location.
+    window.location.href = `/clubreg?id=${id}`;
   };
 
   return (
