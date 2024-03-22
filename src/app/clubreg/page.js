@@ -29,7 +29,7 @@ export default function ClubTransaction() {
     try {
       const response = await axios.put(
         `https://backend-fypg.onrender.com/api/students/${rollNumber}`,
-        { club, transactionId },
+        { club: duction.all.find(profile => profile.id === id)?.name, transactionId },
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -52,7 +52,15 @@ export default function ClubTransaction() {
       <Typography className="animate-pulse mt-5 text-center text-5xl font-extrabold font-pixel text-gray-400">
           Last step to Nexus
         </Typography>
-        
+          {duction.all
+            .filter(profile => profile.id ===id)
+            .map((profile, index) => (
+              
+              <Typography variant="h6" color="white" className=" text-2xl text-center mt-8 ml-4">
+             {profile.name}
+            </Typography>
+            ))
+          }
         <Image
           src="/path_to_your_image" // Route of the image file
           height={500} // Desired size in pixels
@@ -75,15 +83,6 @@ export default function ClubTransaction() {
           Submit
         </Button>
       </form>
-      
-      <ul className="mt-4 text-center text-white">
-          {duction.all
-            .filter(profile => profile.id ===id)
-            .map((profile, index) => (
-              <li key={index}>{profile.name}</li>
-            ))
-          }
-        </ul>
     </div>
     </div>
     </div>
