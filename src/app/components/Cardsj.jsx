@@ -10,7 +10,7 @@ export default function ProfileCard() {
 
   const handleRegisterClick = () => {
     // Redirect to the club registration page
-      window.location.href = '/clubreg';;
+      window.location.href = '/clubreg';
   };
   return (
     <div className=" mt-4 grid grid-cols-3 mob:grid-cols-1 tab:grid-cols-2">
