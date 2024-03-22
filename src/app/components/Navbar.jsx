@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from 'next/link';
 import {
   Navbar,
   Typography,
@@ -23,7 +24,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="/home" className="flex items-center">
           Home
         </a>
       </Typography>
@@ -33,7 +34,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="/clubs" className="flex items-center">
           Clubs
         </a>
       </Typography>
@@ -64,13 +65,16 @@ export default function StickyNavbar() {
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
+              <Link href="/login">
               <Button
                 variant="text"
                 size="sm"
                 className="hidden lg:inline-block"
               >
-                <span> Log In</span>
+                <span > Log In</span>
               </Button>
+              </Link>
+              <Link href="/signup">
               <Button
                 variant="gradient"
                 size="sm"
@@ -78,6 +82,7 @@ export default function StickyNavbar() {
               >
                 <span> Register </span>
               </Button>
+              </Link>
             </div>
             <IconButton
               variant="text"

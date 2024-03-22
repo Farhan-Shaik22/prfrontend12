@@ -32,7 +32,7 @@ export default function SimpleRegistrationForm() {
         <Typography variant="h4" className="text-center text-5xl font-extrabold font-pixel" color="white">
           Sign Up
         </Typography>
-        <Typography className="mt-5 text-center text-3xl font-bold font-pixel text-gray-400">
+        <Typography className=" animate-pulse mt-5 text-center text-3xl font-bold font-pixel text-gray-400">
           Register for NEXUS Day-1
         </Typography>
         <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96" onSubmit={handleSubmit}>
@@ -91,7 +91,7 @@ export default function SimpleRegistrationForm() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <Button type="submit" className="mt-6" fullWidth>
+          <Button type="submit" className="mt-6 " fullWidth>
             Sign up
           </Button>
         </form>
