@@ -2,6 +2,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
+import { Select, Option } from '@material-tailwind/react'; // Import the Select component from your UI library
+
+
 
 export default function SimpleRegistrationForm() {
   const [name, setName] = useState('');
@@ -9,6 +12,7 @@ export default function SimpleRegistrationForm() {
   const [college, setCollege] = useState('');
   const [mobile, setMobile] = useState('');
   const [password, setPassword] = useState('');
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,10 +25,9 @@ export default function SimpleRegistrationForm() {
         password,
       });
       window.alert("Successful Registration");
-      setTimeout(()=>
-      {
+      setTimeout(() => {
         window.location.href = '/login';
-      },1500);
+      }, 1500);
       // console.log(response.data);
     } catch (error) {
       console.error(error.response.data);
@@ -63,19 +66,29 @@ export default function SimpleRegistrationForm() {
               value={rollNumber}
               onChange={(e) => setRollNumber(e.target.value)}
             />
-            <Typography variant="h6" color="white" className="-mb-3">
-              College
-            </Typography>
-            <Input
-              size="lg"
-              placeholder="Enter your college name"
-              className="placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700"
-              value={college}
-              onChange={(e) => setCollege(e.target.value)}
-            />
-            <Typography variant="h6" color="white" className="-mb-3">
-              Mobile Number
-            </Typography>
+
+            <div className="flex flex-col gap-6">
+              <Typography variant="h6" color="white" className="-mb-3">
+                College
+              </Typography>
+              <div className="w-72">
+                <Select
+                  label="Select College"
+                  onChange={(selectedValue) => setCollege(selectedValue)}
+                  value={college}
+                >
+                  <Option value="KMIT">KMIT</Option>
+                  <Option value="NGIT">NGIT</Option>
+                  <Option value="KMCE">KMCE</Option>
+                  <Option value="KMEC">KMEC</Option>
+                </Select>
+
+              </div>
+              <Typography variant="h6" color="white" className="-mb-3">
+                Mobile Number
+              </Typography>
+            </div>
+
             <Input
               type="number"
               size="lg"
