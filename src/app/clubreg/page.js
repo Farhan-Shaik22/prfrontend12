@@ -62,7 +62,7 @@ export default function ClubTransaction() {
         .then(response => {
           if (response.data.success) {
             setRegistrationCount(response.data.count);
-            setInputDisabled(response.data.count >= 1); // Disable input if count >= 1
+            setInputDisabled(response.data.count >= caps[clubs.indexOf(duction.all.find(profile => profile.id === id)?.name)]); // Disable input if count >= 1
           } else {
             console.error('Error getting club registration count:', response.data.message);
           }
