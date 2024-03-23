@@ -36,6 +36,7 @@ export default function SimpleRegistrationForm() {
   };
 
   return (
+    <>
     <div className="flex justify-center items-center h-screen bg-black">
       <Card color="transparent" shadow={false}>
         <Typography variant="h4" className="text-center text-5xl font-extrabold font-pixel" color="white">
@@ -115,7 +116,8 @@ export default function SimpleRegistrationForm() {
           </Button>
         </form>
       </Card>
-      <Footer/>
     </div>
+    <Footer/>
+    </>
   );
 }
