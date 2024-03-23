@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
 import Footer from "../components/Footer";
+
 export default function LoginForm() {
   const [rollNumber, setRollNumber] = useState('');
   const [password, setPassword] = useState('');
@@ -27,6 +28,7 @@ export default function LoginForm() {
   };
 
   return (
+    <>
     <div className="flex justify-center items-center h-screen bg-black">
       <Card color="transparent" shadow={false}>
         <Typography variant="h4" className="text-center text-5xl font-extrabold font-pixel" color="white">
@@ -64,7 +66,8 @@ export default function LoginForm() {
           </Button>
         </form>
       </Card>
-      <Footer/>
     </div>
+    <Footer/>
+    </>
   );
 }
