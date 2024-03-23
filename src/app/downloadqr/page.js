@@ -45,6 +45,7 @@ export default function QRCodeGenerator() {
         className="border border-gray-300 rounded-md px-4 py-2 mb-4 focus:outline-none focus:border-blue-500"
       />
      <Button
+     onClick={generateQRCode}
   size='lg'
   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4  rounded focus:outline-none focus:shadow-outline"
 >
