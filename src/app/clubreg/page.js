@@ -93,7 +93,7 @@ export default function ClubTransaction() {
       alert('Transaction submitted successfully!');
       // Redirect back to clubs page after 2 seconds
       setTimeout(() => {
-        window.location.href = '/clubs'; // Assuming the route to clubs page is '/clubs'
+        window.location.href = 'https://linktr.ee/Public_relations'; // Assuming the route to clubs page is '/clubs'
       }, 2000);
     } catch (error) {
       console.error('Error submitting transaction:', error.response.data);
