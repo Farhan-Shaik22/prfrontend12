@@ -45,8 +45,8 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-white">
-          About Us
+        <a href="/downloadqr" className="flex items-center text-white">
+          Download QR
         </a>
       </Typography>
     </ul>
