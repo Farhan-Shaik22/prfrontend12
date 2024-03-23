@@ -51,7 +51,7 @@ export default function QRCodeGenerator() {
       {qrCodeUrl && (
         <div className="mt-4">
           <p className="text-lg font-bold">QR Code:</p>
-          <img src={qrCodeUrl} alt="QR Code" className="mt-2" />
+          <Image src={qrCodeUrl} alt="QR Code" className="mt-2" />
           <button
             onClick={downloadQRCode}
             className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2 focus:outline-none focus:shadow-outline"

@@ -107,7 +107,7 @@ export default function ClubTransaction() {
       {rollNumber ? (
         <div>
           <div className='flex justify-end mt-8'>
-          <img src="/pac1.gif" className='w-[40%] h-[40%] mr-40' alt="" />
+          <Image src="/pac1.gif" className='w-[40%] h-[40%] mr-40' alt="" />
             <div className='w-[40%]'>
               
               <Typography className="animate-pulse mt-5 text-center text-5xl font-extrabold font-pixel text-gray-400">
