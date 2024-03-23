@@ -9,7 +9,7 @@ const duction = {
         par:"Team of 5",
         reg:"INR 500",
         qr:"/500.jpg",
-        insta:"https://www.instagram.com/kaivalya_official/"
+        insta:"https://drive.google.com/file/d/1u-2W0M7ZyTcbgov0xI7zrZKynfV04lQ2/view?usp=drive_link"
       },
 
       {
@@ -20,7 +20,7 @@ const duction = {
         par:"Solo",
         reg:"INR 100",
         qr:"/100.jpg",
-        insta:"https://www.instagram.com/kaivalya_official/"
+        insta:"https://drive.google.com/file/d/1Ak53qZ2tjWtnoI2Hi9iXQRFbStNhO33_/view?usp=drive_link"
       },
 
       {
@@ -31,7 +31,7 @@ const duction = {
         par:"Team of 4",
         reg:"INR 200",
         qr:"/200.jpg",
-        insta:"https://www.instagram.com/kaivalya_official/"
+        insta:"https://drive.google.com/file/d/1POo9EPxMjECHq05hHxDD3Tt9-cVY838g/view?usp=drive_link"
       },
 
       
