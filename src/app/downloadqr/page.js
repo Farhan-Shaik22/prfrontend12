@@ -37,6 +37,7 @@ export default function QRCodeGenerator() {
   };
 
   return (
+    <>
     <div className="flex flex-col items-center justify-center h-screen">
       <input
         type="text"
@@ -65,8 +66,8 @@ export default function QRCodeGenerator() {
   </div>
 )}
       {error && <p className="text-red-500 mt-4">{error}</p>}
-      <Footer/>
     </div>
-    
+    <Footer/>
+    </>
   );
 }
