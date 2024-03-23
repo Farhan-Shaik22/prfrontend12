@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import { Button } from "@material-tailwind/react";
+import Footer from '../components/Footer';
 
 export default function QRCodeGenerator() {
   const [rollNumber, setRollNumber] = useState('');
@@ -64,6 +65,7 @@ export default function QRCodeGenerator() {
   </div>
 )}
       {error && <p className="text-red-500 mt-4">{error}</p>}
+      <Footer/>
     </div>
     
   );
