@@ -4,6 +4,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
+import { Button } from "@material-tailwind/react";
 
 export default function QRCodeGenerator() {
   const [rollNumber, setRollNumber] = useState('');
@@ -43,24 +44,24 @@ export default function QRCodeGenerator() {
         placeholder="Enter your roll number"
         className="border border-gray-300 rounded-md px-4 py-2 mb-4 focus:outline-none focus:border-blue-500"
       />
-      <button
-        onClick={generateQRCode}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-      >
-        Generate QR Code
-      </button>
-      {qrCodeUrl && (
-        <div className="mt-4">
-          <p className="text-lg font-bold">QR Code:</p>
-          <Image src={qrCodeUrl} alt="QR Code" className="mt-2" />
-          <button
-            onClick={downloadQRCode}
-            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-2 focus:outline-none focus:shadow-outline"
-          >
-            Download QR Code
-          </button>
-        </div>
-      )}
+     <Button
+  size='lg'
+  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4  rounded focus:outline-none focus:shadow-outline"
+>
+  Generate QR Code
+</Button>
+{qrCodeUrl && (
+  <div className="mt-4 flex flex-col items-center">
+    <p className="text-lg font-bold">QR Code:</p>
+    <img src={qrCodeUrl} alt="QR Code" className="mt-2 w-[50vh] h-[50vh]" />
+    <button
+      onClick={downloadQRCode}
+      className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-9 focus:outline-none focus:shadow-outline"
+    >
+      Download QR Code
+    </button>
+  </div>
+)}
       {error && <p className="text-red-500 mt-4">{error}</p>}
     </div>
   );
