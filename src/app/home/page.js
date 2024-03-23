@@ -29,7 +29,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image className="inline-block mt-28 hidden lg:block" src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png" alt="Image 3" /> */}
-                  <Image src="/XYZ.gif" className='w-full h-[94%] ml-4' width={800} height={500} alt="" />
+                  <img src="/XYZ.gif" className='w-full h-[94%] ml-4' alt="" />
                 </div>
                 
               </div>
