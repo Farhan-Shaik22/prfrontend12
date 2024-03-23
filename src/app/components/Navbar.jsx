@@ -25,7 +25,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/home" className="flex items-center">
+        <a href="/home" className="flex items-center text-white">
           Home
         </a>
       </Typography>
@@ -35,7 +35,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/clubs" className="flex items-center">
+        <a href="/clubs" className="flex items-center text-white">
           Clubs
         </a>
       </Typography>
@@ -45,7 +45,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center text-white">
           About Us
         </a>
       </Typography>
@@ -59,8 +59,8 @@ export default function StickyNavbar() {
           overflow-x: hidden;
         }
       `}</style>
-      <Navbar className="sticky top-0 z-10 max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 navbar-container">
-        <div className="flex items-center justify-between text-blue-gray-900">
+      <Navbar className="sticky top-0 z-10 border-black bg-transparent max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 navbar-container">
+        <div className="flex items-center justify-between text-white">
           <Typography
             as="a"
             href="#"
@@ -75,7 +75,7 @@ export default function StickyNavbar() {
                 <Button
                   variant="text"
                   size="sm"
-                  className="hidden lg:inline-block"
+                  className="hidden lg:inline-block text-white"
                 >
                   <span> Log In</span>
                 </Button>
