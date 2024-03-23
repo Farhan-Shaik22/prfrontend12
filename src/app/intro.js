@@ -1,5 +1,40 @@
 const duction = {
     all: [
+
+      {
+        id: "16",
+        image:"/valv.jpg",
+        name: "E-Sports 1",
+        quote: "\"  Valorant: pump up your adrenaline as you battle to outsmart other teams using abilities, precision and Maneuvers to come out on top.   \" ",
+        par:"Team of 5",
+        reg:"INR 500",
+        qr:"/500.jpg",
+        insta:"https://www.instagram.com/kaivalya_official/"
+      },
+
+      {
+        id: "17",
+        image:"/fifa.jpg",
+        name: "E-Sports 2",
+        quote: "\"  FIFA: Dribble through the field as you crush the defenders to score goals and dominate your opponent to be a champion.  \"",
+        par:"Solo",
+        reg:"INR 100",
+        qr:"/100.jpg",
+        insta:"https://www.instagram.com/kaivalya_official/"
+      },
+
+      {
+        id: "18",
+        image:"/bgmi.jpg",
+        name: "E-Sports 3",
+        quote: "\"  BGMI: Work with your squad to secure a spot in the leaderboard by healing, flanking, camping and defeating your enemies.  \"",
+        par:"Team of 4",
+        reg:"INR 200",
+        qr:"/200.jpg",
+        insta:"https://www.instagram.com/kaivalya_official/"
+      },
+
+      
       {
         id: "1",
         image:"/Vachan.jpeg",
@@ -7,6 +42,7 @@ const duction = {
         quote: "\" Debate: Polish your argumentative skills as you debate your opponent and prove your point to take home a prize.  \"",
         par:"Team of 4",
         reg:"INR 75",
+        qr:"/75.jpg",
        
         insta:"https://www.instagram.com/vachan.official/"
       },
@@ -18,6 +54,7 @@ const duction = {
         quote: "\" Declamation: Take command by holding the attention of the audience and moving them with your speech. \"",
         par:"Solo",
         reg:"INR 75",
+        qr:"/75.jpg",
         insta:"https://www.instagram.com/vachan.official/"
       },
 
@@ -28,7 +65,7 @@ const duction = {
         quote: "\" Commentary contest: Test your skill to make scenarios better with quick responses as you commentate and prove your mettle. \"",
         par:"Team of 2",
         reg:"INR 75",
-       
+        qr:"/75.jpg",
         insta:"https://www.instagram.com/vachan.official/"
       },
 
@@ -42,6 +79,7 @@ const duction = {
         quote: "\" Solo Melodies : Calling all music Enthusiasts!! Here’s your chance to grab the mic and show off your harmonies in this solo singing competition!  \"",
         par:"Solo",
         reg:"INR 100",
+        qr:"/100.jpg",
         insta:"https://www.instagram.com/aalapofficial/"
       },
 
@@ -52,6 +90,7 @@ const duction = {
         quote: "\" Melody Mania!: Get ready for the ultimate battle of bands! Our stage awaits a stellar musical performance by your team. \"",
         par:"Team(3-5)",
         reg:"INR 350",
+        qr:"/350.jpg",
         insta:"https://www.instagram.com/aalapofficial/"
       },
 
@@ -63,6 +102,7 @@ const duction = {
         quote: "\" Classical - It’s time to steal the spotlight under the classical hymns and mesmerize the audience with your graceful performance. \"",
         par:"Solo",
         reg:"INR 100",
+        qr:"/100.jpg",
         insta:"https://www.instagram.com/mudraofficial/"
       },
 
@@ -73,6 +113,7 @@ const duction = {
         quote: "\" Freestyle Competition(Group) - Showcase your best moves in this freestyle dance competition and groove your way to victory! \"",
         par:"Team of 5",
         reg:"INR 350",
+        qr:"/350.jpg",
         insta:"https://www.instagram.com/mudraofficial/"
       },
 
@@ -83,6 +124,7 @@ const duction = {
         quote: "\" Freestyle Competition(Solo) - Showcase your best moves in this freestyle dance competition and groove your way to victory! \"",
         par:"Solo",
         reg:"INR 100",
+        qr:"/100.jpg",
         insta:"https://www.instagram.com/mudraofficial/"
       },
 
@@ -93,6 +135,7 @@ const duction = {
         quote: "\"Spin the wheel: Let your art do the talking in this game of chance and skill by spinning the wheel and creating a masterpiece to secure the price. \" ",
         par:"Solo",
         reg:"INR 75",
+        qr:"/75.jpg",
         insta:"https://www.instagram.com/aakarshanofficial/"
       },
 
@@ -104,6 +147,7 @@ const duction = {
         quote: "\" Ludo: Creativity meets fun in a perfect fusion of upcycling, fashion and nostalgia on a life-sized Ludo board. Participate to win exciting cash prizes! \"",
         par:"Team of 4",
         reg:"INR 50",
+        qr:"/50.jpg",
         linkedin: "https://www.linkedin.com/in/dheeraj-koka-692a81291/",
         insta:"https://www.instagram.com/riti._.official/"
       },
@@ -115,6 +159,7 @@ const duction = {
         quote: "\" Gameathon: Turn the gears of your brain as you brainstorm ideas with your teammates in the ideathon and nurture your innovative potential/flaunt your presentation skills. \"",
         par:"Team of 3",
         reg:"INR 150",
+        qr:"/150.jpg",
         insta:"https://www.instagram.com/recurse.official/"
       },
 
@@ -125,6 +170,7 @@ const duction = {
         quote: "\" KBC: Navigate through OG trivia rounds such as fastest finger first, Audience poll etc as you exhibit your gaming and technical knowledge. \"",
         par:"Solo",
         reg:"INR 50",
+        qr:"/50.jpg",
         insta:"https://www.instagram.com/recurse.official/"
         
       },
@@ -136,6 +182,7 @@ const duction = {
         quote: "\" 1)Capture Quest: Take part in this thrilling photography competition, capturing unique visions through fun challenges and honing your skills! \"",
         par:"Solo",
         reg:"INR 100",
+        qr:"/100.jpg",
         insta:"https://www.instagram.com/tracesoflenses/"
       },
 
@@ -146,6 +193,7 @@ const duction = {
         quote: "\" Yoga Competition: Embrace calmness amid chaos, and exhibit your sense of balance and control over your body through fun yoga asanas.  \"",
         par:"Solo",
         reg:"INR 50",
+        qr:"/50.jpg",
         insta:"https://www.instagram.com/kaivalya_official/"
       },
 
@@ -156,38 +204,9 @@ const duction = {
         quote: "\"Rangasthalam: Channel your inner Rajamouli/cinematic genius by engaging in a script writing and acting competition where you display your cinematic expertise.  \"",
         par:"Team of 4",
         reg:"INR 200",
+        qr:"/200.jpg",
         insta:"https://www.instagram.com/kaivalya_official/"
       },
-
-      {
-        id: "16",
-        image:"/esports.png",
-        name: "E-Sports 1",
-        quote: "\"  Valorant: pump up your adrenaline as you battle to outsmart other teams using abilities, precision and Maneuvers to come out on top.   \" ",
-        par:"Team of 5",
-        reg:"INR 500",
-        insta:"https://www.instagram.com/kaivalya_official/"
-      },
-
-      {
-        id: "17",
-        image:"/esports.png",
-        name: "E-Sports 2",
-        quote: "\"  FIFA: Dribble through the field as you crush the defenders to score goals and dominate your opponent to be a champion.  \"",
-        par:"Solo",
-        reg:"INR 100",
-        insta:"https://www.instagram.com/kaivalya_official/"
-      },
-
-      {
-        id: "18",
-        image:"/esports.png",
-        name: "E-Sports 3",
-        quote: "\"  BGMI: Work with your squad to secure a spot in the leaderboard by healing, flanking, camping and defeating your enemies.  \"",
-        par:"Team of 4",
-        reg:"INR 200",
-        insta:"https://www.instagram.com/kaivalya_official/"
-      }
       
       
     ]

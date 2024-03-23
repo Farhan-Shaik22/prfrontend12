@@ -36,7 +36,7 @@ export default function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="/clubs" className="flex items-center text-white">
-          Clubs
+          Activities
         </a>
       </Typography>
       <Typography

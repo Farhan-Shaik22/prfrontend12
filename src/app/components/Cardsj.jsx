@@ -21,7 +21,7 @@ export default function ProfileCard() {
           key={intro.id} // Add key prop here
           className="flex flex-col mx-6 my-4 items-center w-96 border-4 border-white rounded-xl mob:w-full mob:mx-0"
         >
-          <div className="p-4 bg-green-300 w-96 pl-24 border-x-4 border-white rounded-xl mob:w-full flex items-center">
+          <div className="p-4  w-96 pl-24 border-x-4 border-white rounded-xl mob:w-full flex items-center" style={{ background: 'linear-gradient(135deg, #4dc0b5, #3490de)'}}>
             <div className="w-48 h-48 relative flex justify-center items-center border-4 border-white rounded-full overflow-hidden">
               <Image src={intro.image} layout="fill" objectFit="cover" alt={intro.name} /> {/* Add alt prop here */}
             </div>

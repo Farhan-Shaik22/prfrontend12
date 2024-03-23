@@ -107,7 +107,9 @@ export default function ClubTransaction() {
       {rollNumber ? (
         <div>
           <div className='flex justify-end mt-8'>
+          <img src="/pac1.gif" className='w-[40%] h-[40%] mr-40' alt="" />
             <div className='w-[40%]'>
+              
               <Typography className="animate-pulse mt-5 text-center text-5xl font-extrabold font-pixel text-gray-400">
                 Last step to Nexus
               </Typography>
@@ -125,7 +127,7 @@ export default function ClubTransaction() {
                 </Typography>
               ) : (
                 <Image
-                  src="/qrreff.png" // Route of the image file
+                  src={ duction.all.find(profile => profile.id === id)?.qr}// Route of the image file
                   height={350} // Desired size in pixels
                   width={350} // Desired size in pixels
                   className='mt-5 ml-[20%]'

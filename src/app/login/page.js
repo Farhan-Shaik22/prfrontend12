@@ -21,7 +21,8 @@ export default function LoginForm() {
       // Replace 'redirectToPage' with the actual page you want to redirect to
       window.location.href = '/clubs';
     } catch (error) {
-      console.error(error.response.data);
+      alert("Invalid Credentials")
+      // console.error(error.response.data);
     }
   };
 
