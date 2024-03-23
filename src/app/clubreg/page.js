@@ -67,10 +67,12 @@ export default function ClubTransaction() {
             setInputDisabled(response.data.count >= caps[clubs.indexOf(duction.all.find(profile => profile.id === id)?.name)]); // Disable input if count >= 1
           } else {
             console.error('Error getting club registration count:', response.data.message);
+            setInputDisabled(true);
           }
         })
         .catch(error => {
           console.error('Error getting club registration count:', error);
+          setInputDisabled(true);
           // console.log(duction.all.find(profile => profile.id === id)?.name);
         });
     }
@@ -124,9 +126,9 @@ export default function ClubTransaction() {
                   </Typography>
                 ))
               }
-              {registrationCount >= caps[clubs.indexOf(duction.all.find(profile => profile.id === id)?.name)] ? (
+              {registrationCount >= caps[clubs.indexOf(duction.all.find(profile => profile.id === id)?.name)] || inputDisabled ? (
                 <Typography variant="h6" color="white" className="text-2xl text-center mt-8 ml-4">
-                  Registrations Full
+                  Registrations Closed
                 </Typography>
               ) : (
                 <Image
