@@ -43,7 +43,7 @@ export default function ClubTransaction() {
     "E-Sports 3"
   ]
   ;
-  const caps =[50, 50, 50, 100, 75, 100, 100, 100, 1000, 24, 1000, 1000, 1000, 1000, 1000, 32, 32, 32]
+  const caps =[50, 50, 50, 100, 75, 100, 75, 75, 1000, 24, 1000, 1000, 1000, 1000, 1000, 32, 32, 32]
 
 
 
@@ -70,7 +70,7 @@ export default function ClubTransaction() {
         })
         .catch(error => {
           console.error('Error getting club registration count:', error);
-          console.log(duction.all.find(profile => profile.id === id)?.name);
+          // console.log(duction.all.find(profile => profile.id === id)?.name);
         });
     }
   }, [id]);
@@ -87,7 +87,7 @@ export default function ClubTransaction() {
           },
         }
       );
-      console.log('Transaction submitted:', response.data);
+      // console.log('Transaction submitted:', response.data);
       // Show success message
       alert('Transaction submitted successfully!');
       // Redirect back to clubs page after 2 seconds

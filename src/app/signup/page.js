@@ -25,7 +25,7 @@ export default function SimpleRegistrationForm() {
       {
         window.location.href = '/login';
       },1500);
-      console.log(response.data);
+      // console.log(response.data);
     } catch (error) {
       console.error(error.response.data);
       window.alert("Unsuccessful Registration");
