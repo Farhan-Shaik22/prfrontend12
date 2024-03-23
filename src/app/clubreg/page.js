@@ -6,6 +6,7 @@ import { jwtDecode } from 'jwt-decode';
 import Image from 'next/image';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
 import duction from "../intro";
+import Footer from "../components/Footer";
 
 export default function ClubTransaction() {
   const [club, setClub] = useState('');
@@ -103,6 +104,7 @@ export default function ClubTransaction() {
   
 
   return (
+    <>
     <Card color="transparent" shadow={false} className="p-8 bg-black">
       {rollNumber ? (
         <div>
@@ -160,5 +162,7 @@ export default function ClubTransaction() {
         </Typography>
       )}
     </Card>
+    <Footer/>
+    </>
   );
 }

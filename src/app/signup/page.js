@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
 import { Select, Option } from '@material-tailwind/react'; // Import the Select component from your UI library
-
+import Footer from "../components/Footer";
 
 
 export default function SimpleRegistrationForm() {
@@ -115,6 +115,7 @@ export default function SimpleRegistrationForm() {
           </Button>
         </form>
       </Card>
+      <Footer/>
     </div>
   );
 }

@@ -2,6 +2,7 @@
 import Image from 'next/image';
 // Ensure you import necessary modules
 import React from 'react';
+import Footer from '../components/Footer'
 
 // Use client if needed, but it's unclear from the provided code
 // import client from 'your-client-path';
@@ -37,6 +38,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }

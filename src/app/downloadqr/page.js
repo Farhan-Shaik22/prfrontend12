@@ -65,5 +65,6 @@ export default function QRCodeGenerator() {
 )}
       {error && <p className="text-red-500 mt-4">{error}</p>}
     </div>
+    
   );
 }

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
-
+import Footer from "../components/Footer";
 export default function LoginForm() {
   const [rollNumber, setRollNumber] = useState('');
   const [password, setPassword] = useState('');
@@ -64,6 +64,7 @@ export default function LoginForm() {
           </Button>
         </form>
       </Card>
+      <Footer/>
     </div>
   );
 }
