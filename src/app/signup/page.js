@@ -30,7 +30,7 @@ export default function SimpleRegistrationForm() {
       }, 1500);
       // console.log(response.data);
     } catch (error) {
-      console.error(error.response.data);
+      // console.error(error.response.data);
       window.alert("Unsuccessful Registration");
     }
   };
