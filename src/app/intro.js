@@ -40,9 +40,20 @@ const duction = {
         image:"/Vachan.jpeg",
         name: "Vachan 1",
         quote: "\" Debate: Polish your argumentative skills as you debate your opponent and prove your point to take home a prize.  \"",
-        par:"Team of 4",
+        par:"Solo",
         reg:"INR 75",
         qr:"/75.jpg",
+       
+        insta:"https://www.instagram.com/vachan.official/"
+      },
+      {
+        id: "19",
+        image:"/Vachan.jpeg",
+        name: "Vachan 2",
+        quote: "\" Debate: Polish your argumentative skills as you debate your opponent and prove your point to take home a prize.  \"",
+        par:"Team of 4",
+        reg:"INR 300",
+        qr:"/300.jpg",
        
         insta:"https://www.instagram.com/vachan.official/"
       },
@@ -50,7 +61,7 @@ const duction = {
       {
         id: "2",
         image:"/Vachan.jpeg",
-        name: "Vachan 2",
+        name: "Vachan 3",
         quote: "\" Declamation: Take command by holding the attention of the audience and moving them with your speech. \"",
         par:"Solo",
         reg:"INR 75",
@@ -61,11 +72,11 @@ const duction = {
       {
         id: "3",
         image:"/Vachan.jpeg",
-        name: "Vachan 3",
+        name: "Vachan 4",
         quote: "\" Commentary contest: Test your skill to make scenarios better with quick responses as you commentate and prove your mettle. \"",
         par:"Team of 2",
-        reg:"INR 75",
-        qr:"/75.jpg",
+        reg:"INR 150",
+        qr:"/150.jpg",
         insta:"https://www.instagram.com/vachan.official/"
       },
 
