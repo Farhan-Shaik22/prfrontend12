@@ -98,6 +98,7 @@ export default function ClubTransaction() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if(transactionId.length===12){
     try {
       const response = await axios.put(
         `https://backend-fypg.onrender.com/api/students/${rollNumber}`,
@@ -120,6 +121,10 @@ export default function ClubTransaction() {
       // Show error message if submission fails
       alert('Error submitting transaction. Please try again later.');
     }
+  }
+  else{
+    alert("Enter valid Transaction ID");
+  }
   };
   
 
@@ -167,7 +172,8 @@ export default function ClubTransaction() {
                   value={transactionId}
                   onChange={(e) => setTransactionId(e.target.value)}
                   className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700 h-14"
-                  disabled={inputDisabled} // Disable input based on state
+                  disabled={inputDisabled} // Disable input based on state4
+                  required
                 />
                 <Button type="submit" fullWidth className="bg-green-300 text-white font-bold text-2xl font-pixel h-14" disabled={inputDisabled}>
                   Submit
