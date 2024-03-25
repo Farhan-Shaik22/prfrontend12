@@ -147,7 +147,7 @@ export default function ClubTransaction() {
                 .filter(profile => profile.id === id)
                 .map((profile, index) => (
                   <Typography key={index} variant="h6" color="white" className=" text-2xl text-center mt-8 ml-4">
-                    {profile.name}
+                    {profile.tit}
                   </Typography>
                 ))
               }

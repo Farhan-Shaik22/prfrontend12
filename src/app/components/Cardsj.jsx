@@ -27,7 +27,7 @@ export default function ProfileCard() {
             </div>
           </div>
 
-          <h4 className="m-5 font-pixel text-2xl font-bold text-white">{intro.name}</h4>
+          <h4 className="m-5 font-pixel text-2xl font-bold text-white">{intro.tit}</h4>
 
           <div className="w-64 text-center text-white text-lg m-1">{intro.quote}</div>
           
