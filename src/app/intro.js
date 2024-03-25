@@ -126,7 +126,7 @@ const duction = {
     
       {
         id: "6",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
+        image:"/Mudra.jpeg",
         name: "Mudra 1",
         tit:"CLASSICAL-SOLO",
         quote: "\" Classical(Solo) - It’s time to steal the spotlight under the classical hymns and mesmerize the audience with your graceful performance. \"",
@@ -138,7 +138,7 @@ const duction = {
       },
       {
         id: "20",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
+        image:"/Mudra.jpeg",
         name: "Mudra 2",
         tit:"CLASSICAL-GROUP",
         quote: "\" Classical(Group) - It’s time to steal the spotlight under the classical hymns and mesmerize the audience with your graceful performance. \"",
@@ -150,7 +150,7 @@ const duction = {
       },
       {
         id: "7",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
+        image:"/Mudra.jpeg",
         name: "Mudra 3",
         tit:"FREESTYLE-SOLO",
         quote: "\" Freestyle Competition(Group) - Showcase your best moves in this freestyle dance competition and groove your way to victory! \"",
@@ -163,7 +163,7 @@ const duction = {
 
       {
         id: "8",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
+        image:"/Mudra.jpeg",
         name: "Mudra 4",
         tit:"FREESTYLE-GROUP",
         quote: "\" Freestyle Competition(Solo) - Showcase your best moves in this freestyle dance competition and groove your way to victory! \"",
