@@ -230,8 +230,8 @@ const duction = {
         tit:"CAPTURE QUEST",
         quote: "\" 1)Capture Quest: Take part in this thrilling photography competition, capturing unique visions through fun challenges and honing your skills! \"",
         par:"Solo",
-        reg:"INR 100",
-        qr:"/100.jpg",
+        reg:"INR 50",
+        qr:"/50.jpg",
         insta:"https://www.instagram.com/tracesoflenses/"
       },
 
