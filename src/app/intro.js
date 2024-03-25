@@ -110,17 +110,26 @@ const duction = {
         id: "6",
         image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
         name: "Mudra 1",
-        quote: "\" Classical - It’s time to steal the spotlight under the classical hymns and mesmerize the audience with your graceful performance. \"",
+        quote: "\" Classical(Solo) - It’s time to steal the spotlight under the classical hymns and mesmerize the audience with your graceful performance. \"",
         par:"Solo",
         reg:"INR 100",
         qr:"/100.jpg",
         insta:"https://www.instagram.com/mudraofficial/"
       },
-
+      {
+        id: "20",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
+        name: "Mudra 2",
+        quote: "\" Classical(Group) - It’s time to steal the spotlight under the classical hymns and mesmerize the audience with your graceful performance. \"",
+        par:"Team(2-5)",
+        reg:"INR 100",
+        qr:"/100.jpg",
+        insta:"https://www.instagram.com/mudraofficial/"
+      },
       {
         id: "7",
         image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
-        name: "Mudra 2",
+        name: "Mudra 3",
         quote: "\" Freestyle Competition(Group) - Showcase your best moves in this freestyle dance competition and groove your way to victory! \"",
         par:"Team of 5",
         reg:"INR 350",
@@ -131,7 +140,7 @@ const duction = {
       {
         id: "8",
         image:"https://scontent.cdninstagram.com/v/t51.2885-19/412046551_359182106802041_6323071453295358439_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=67MBY7Le4D0AX-9bOGD&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA-3gaThnqQx28ZJ02QPPn6jzdbk9Szav86M_CJuizSbQ&oe=660131FF&_nc_sid=10d13b",
-        name: "Mudra 3",
+        name: "Mudra 4",
         quote: "\" Freestyle Competition(Solo) - Showcase your best moves in this freestyle dance competition and groove your way to victory! \"",
         par:"Solo",
         reg:"INR 100",
