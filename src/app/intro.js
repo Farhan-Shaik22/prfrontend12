@@ -5,7 +5,7 @@ const duction = {
         id: "16",
         image:"/valv.jpg",
         name: "E-Sports 1",
-        tit:"Valorent",
+        tit:"Valorant",
         quote: "\"  Valorant: pump up your adrenaline as you battle to outsmart other teams using abilities, precision and Maneuvers to come out on top.   \" ",
         par:"Team of 5",
         reg:"INR 500",

@@ -119,9 +119,9 @@ export default function ClubTransaction() {
         window.location.href = 'https://linktr.ee/Public_relations'; // Assuming the route to clubs page is '/clubs'
       }, 2000);
     } catch (error) {
-      console.error('Error submitting transaction:', error.response.data.message);
+      console.error('Error submitting transaction:');
       // Show error message if submission fails
-      alert('Error submitting transaction. Please try again later.');
+      alert('Error submitting transaction.'+ error.response.data.message);
     }
   }
   else{
@@ -133,37 +133,40 @@ export default function ClubTransaction() {
   return (
     <>
     <Card color="transparent" shadow={false} className="p-8 bg-black">
-      {rollNumber ? (
-        <div>
-          <div className='flex justify-end mt-8'>
-          {/* <Image src="/pac1.gif" className='w-[40%] h-[40%] mr-40' alt="" /> */}
+    {rollNumber ? (
+      <div>
+        <div className='flex justify-end mt-8'>
           <img src="/pac1.gif" className='w-[40%] h-[40%] mr-40' alt="" />
-            <div className='w-[40%]'>
-              
-              <Typography className="animate-pulse mt-5 text-center text-5xl font-extrabold font-pixel text-gray-400">
-                Last step to Nexus
-              </Typography>
-              {duction.all
-                .filter(profile => profile.id === id)
-                .map((profile, index) => (
-                  <Typography key={index} variant="h6" color="white" className=" text-2xl text-center mt-8 ml-4">
-                    {profile.tit}
-                  </Typography>
-                ))
-              }
-              {registrationCount >= caps[clubs.indexOf(duction.all.find(profile => profile.id === id)?.name)] || inputDisabled ? (
-                <Typography variant="h6" color="white" className="text-2xl text-center mt-8 ml-4">
-                  Registrations Closed
+          <div className='w-[40%]'>
+            <Typography className="animate-pulse mt-5 text-center text-5xl font-extrabold font-pixel text-gray-400">
+              Last step to Nexus
+            </Typography>
+            {duction.all
+              .filter(profile => profile.id === id)
+              .map((profile, index) => (
+                <Typography key={index} variant="h6" color="white" className=" text-2xl text-center mt-8 ml-4">
+                  {profile.tit}
                 </Typography>
-              ) : (
-                <Image
-                  src={ duction.all.find(profile => profile.id === id)?.qr}// Route of the image file
-                  height={350} // Desired size in pixels
-                  width={350} // Desired size in pixels
-                  className='mt-5 ml-[20%]'
-                  alt="Your Image"
-                />
-              )}
+              ))
+            }
+            {isRegistered ? (
+              <Typography variant="h6" color="white" className="text-2xl text-center mt-8 ml-4">
+                Already Registered
+              </Typography>
+            ) : registrationCount >= caps[clubs.indexOf(duction.all.find(profile => profile.id === id)?.name)] || inputDisabled ? (
+              <Typography variant="h6" color="white" className="text-2xl text-center mt-8 ml-4">
+                Registrations Closed
+              </Typography>
+            ) : (
+              <Image
+                src={duction.all.find(profile => profile.id === id)?.qr}
+                height={350}
+                width={350}
+                className='mt-5 ml-[20%]'
+                alt="Your Image"
+              />
+            )}
+            {!isRegistered && (
               <form onSubmit={handleSubmit} className="mt-8 space-y-8">
                 <Typography variant="h6" color="white" className="text-2xl">
                   Add your Transaction ID
@@ -174,21 +177,23 @@ export default function ClubTransaction() {
                   value={transactionId}
                   onChange={(e) => setTransactionId(e.target.value)}
                   className="text-white placeholder-gray-600 !border-t-blue-gray-200 focus:!border-blue-700 h-14"
-                  disabled={inputDisabled} // Disable input based on state4
-                  required
+                  disabled={inputDisabled || isRegistered} 
+                  maxLength={12} // Add maxLength attribute to limit input length to 12 characters
                 />
-                <Button type="submit" fullWidth className="bg-green-300 text-white font-bold text-2xl font-pixel h-14" disabled={inputDisabled}>
+                <Button type="submit" fullWidth className="bg-green-300 text-white font-bold text-2xl font-pixel h-14" disabled={inputDisabled || isRegistered}>
                   Submit
                 </Button>
               </form>
-            </div>
+            )}
           </div>
         </div>
-      ) : (
-        <Typography className="text-center text-2xl font-bold font-pixel text-white">
-          Please log in to add a club.
-        </Typography>
-      )}
+      </div>
+    ) : (
+      <Typography className="text-center text-2xl font-bold font-pixel text-white">
+        Please log in to add a club.
+      </Typography>
+    )}
+
     </Card>
     <Footer/>
     </>
