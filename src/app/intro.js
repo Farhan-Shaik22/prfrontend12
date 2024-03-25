@@ -10,7 +10,8 @@ const duction = {
         par:"Team of 5",
         reg:"INR 500",
         qr:"/500.jpg",
-        insta:"https://drive.google.com/file/d/1u-2W0M7ZyTcbgov0xI7zrZKynfV04lQ2/view?usp=drive_link"
+        insta:"https://drive.google.com/file/d/1u-2W0M7ZyTcbgov0xI7zrZKynfV04lQ2/view?usp=drive_link",
+        prize:"₹16000"
       },
 
       {
@@ -22,6 +23,7 @@ const duction = {
         par:"Solo",
         reg:"INR 100",
         qr:"/100.jpg",
+        prize:"₹3200",
         insta:"https://drive.google.com/file/d/1Ak53qZ2tjWtnoI2Hi9iXQRFbStNhO33_/view?usp=drive_link"
       },
 
@@ -33,6 +35,7 @@ const duction = {
         quote: "\"  BGMI: Work with your squad to secure a spot in the leaderboard by healing, flanking, camping and defeating your enemies.  \"",
         par:"Team of 4",
         reg:"INR 200",
+        prize:"₹6400",
         qr:"/200.jpg",
         insta:"https://drive.google.com/file/d/1POo9EPxMjECHq05hHxDD3Tt9-cVY838g/view?usp=drive_link"
       },
@@ -46,6 +49,7 @@ const duction = {
         quote: "\" Debate: Polish your argumentative skills as you debate your opponent and prove your point to take home a prize.  \"",
         par:"Solo",
         reg:"INR 75",
+        prize:"₹2500",
         qr:"/75.jpg",
        
         insta:"https://www.instagram.com/vachan.official/"
@@ -58,6 +62,7 @@ const duction = {
         quote: "\" Debate: Polish your argumentative skills as you debate your opponent and prove your point to take home a prize.  \"",
         par:"Team of 4",
         reg:"INR 300",
+        prize:"₹2500",
         qr:"/300.jpg",
        
         insta:"https://www.instagram.com/vachan.official/"
@@ -72,6 +77,7 @@ const duction = {
         par:"Solo",
         reg:"INR 75",
         qr:"/75.jpg",
+        prize:"₹2500",
         insta:"https://www.instagram.com/vachan.official/"
       },
 
@@ -83,6 +89,7 @@ const duction = {
         quote: "\" Commentary contest: Test your skill to make scenarios better with quick responses as you commentate and prove your mettle. \"",
         par:"Team of 2",
         reg:"INR 150",
+        prize:"₹2500",
         qr:"/150.jpg",
         insta:"https://www.instagram.com/vachan.official/"
       },
@@ -98,6 +105,7 @@ const duction = {
         quote: "\" Solo Melodies : Calling all music Enthusiasts!! Here’s your chance to grab the mic and show off your harmonies in this solo singing competition!  \"",
         par:"Solo",
         reg:"INR 100",
+        prize:"₹9000",
         qr:"/100.jpg",
         insta:"https://www.instagram.com/aalapofficial/"
       },
@@ -110,6 +118,7 @@ const duction = {
         quote: "\" Melody Mania!: Get ready for the ultimate battle of bands! Our stage awaits a stellar musical performance by your team. \"",
         par:"Team(3-5)",
         reg:"INR 350",
+        prize:"₹9000",
         qr:"/350.jpg",
         insta:"https://www.instagram.com/aalapofficial/"
       },
@@ -124,6 +133,7 @@ const duction = {
         par:"Solo",
         reg:"INR 100",
         qr:"/100.jpg",
+        prize:"₹9000",
         insta:"https://www.instagram.com/mudraofficial/"
       },
       {
@@ -134,6 +144,7 @@ const duction = {
         quote: "\" Classical(Group) - It’s time to steal the spotlight under the classical hymns and mesmerize the audience with your graceful performance. \"",
         par:"Team(2-5)",
         reg:"INR 100",
+        prize:"₹9000",
         qr:"/100.jpg",
         insta:"https://www.instagram.com/mudraofficial/"
       },
@@ -145,6 +156,7 @@ const duction = {
         quote: "\" Freestyle Competition(Group) - Showcase your best moves in this freestyle dance competition and groove your way to victory! \"",
         par:"Team of 5",
         reg:"INR 350",
+        prize:"₹9000",
         qr:"/350.jpg",
         insta:"https://www.instagram.com/mudraofficial/"
       },
@@ -158,6 +170,7 @@ const duction = {
         par:"Solo",
         reg:"INR 100",
         qr:"/100.jpg",
+        prize:"₹9000",
         insta:"https://www.instagram.com/mudraofficial/"
       },
 
@@ -169,6 +182,7 @@ const duction = {
         quote: "\"Spin the wheel: Let your art do the talking in this game of chance and skill by spinning the wheel and creating a masterpiece to secure the price. \" ",
         par:"Solo",
         reg:"INR 75",
+        prize:"₹2000",
         qr:"/75.jpg",
         insta:"https://www.instagram.com/aakarshanofficial/"
       },
@@ -177,10 +191,11 @@ const duction = {
         image:"https://scontent.cdninstagram.com/v/t51.2885-19/231585681_831325504186531_5797848488481493219_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=r50hr0lRy0gAX_CDIzC&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA4GA-z6GF315n4tRp70swD2VAQaxMzoJ7TZJ5uGCbAJw&oe=660195A8&_nc_sid=10d13b",
         name: "Aakarshan 2",
         tit:"DOODLE DASH",
-        quote: "\"Doodle Dash: Experience the offline version of the popular drawing and guessing game, Skribbl. Compete with friends to guess each other's drawings while showcasing your artistic skills. With a variety of prompts and endless laughter, Doodle Dash promises hours of entertainment for all.\" ",
+        quote: "\"Doodle Dash: Compete with your friends to guess each other's drawings with diverse prompts and flex your artistic abilities in Doodle dash.\" ",
         par:"Solo",
         reg:"INR 50",
         qr:"/50.jpg",
+        prize:"Exciting Prizes",
         insta:"https://www.instagram.com/aakarshanofficial/"
       },
 
@@ -194,6 +209,7 @@ const duction = {
         par:"Team of 4",
         reg:"INR 50",
         qr:"/50.jpg",
+        prize:"Exciting Prizes",
         linkedin: "https://www.linkedin.com/in/dheeraj-koka-692a81291/",
         insta:"https://www.instagram.com/riti._.official/"
       },
@@ -207,6 +223,7 @@ const duction = {
         par:"Team of 3",
         reg:"INR 150",
         qr:"/150.jpg",
+        prize:"₹10000",
         insta:"https://www.instagram.com/recurse.official/"
       },
 
@@ -219,6 +236,7 @@ const duction = {
         par:"Solo",
         reg:"INR 50",
         qr:"/50.jpg",
+        prize:"₹10000",
         insta:"https://www.instagram.com/recurse.official/"
         
       },
@@ -232,6 +250,7 @@ const duction = {
         par:"Solo",
         reg:"INR 50",
         qr:"/50.jpg",
+        prize:"₹3000",
         insta:"https://www.instagram.com/tracesoflenses/"
       },
 
@@ -244,6 +263,7 @@ const duction = {
         par:"Solo",
         reg:"INR 50",
         qr:"/50.jpg",
+        prize:"Exciting Prizes",
         insta:"https://www.instagram.com/kaivalya_official/"
       },
 
@@ -256,6 +276,7 @@ const duction = {
         par:"Solo",
         reg:"INR 50",
         qr:"/50.jpg",
+        prize:"₹3000",
         insta:"https://www.instagram.com/abhinayathedramaclub/"
       },
       
