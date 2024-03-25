@@ -119,7 +119,7 @@ export default function ClubTransaction() {
         window.location.href = 'https://linktr.ee/Public_relations'; // Assuming the route to clubs page is '/clubs'
       }, 2000);
     } catch (error) {
-      console.error('Error submitting transaction:', error.response.data);
+      console.error('Error submitting transaction:', error.response.data.message);
       // Show error message if submission fails
       alert('Error submitting transaction. Please try again later.');
     }
