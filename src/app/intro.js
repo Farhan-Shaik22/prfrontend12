@@ -222,9 +222,9 @@ const duction = {
         image:"https://scontent.cdninstagram.com/v/t51.2885-19/65730805_964871123844995_157515602003492864_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=lRzVK1cZ6sAAX9EoyEG&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfBdI9VmifBxR2-_5TSh_qj6grJCWX-dm6zspihaphJ2Tg&oe=6603FAF0&_nc_sid=10d13b",
         name: "Abhinaya",
         quote: "\"Rangasthalam: Channel your inner Rajamouli/cinematic genius by engaging in a script writing and acting competition where you display your cinematic expertise.  \"",
-        par:"Team of 4",
-        reg:"INR 200",
-        qr:"/200.jpg",
+        par:"Solo",
+        reg:"INR 50",
+        qr:"/50.jpg",
         insta:"https://www.instagram.com/kaivalya_official/"
       },
       
