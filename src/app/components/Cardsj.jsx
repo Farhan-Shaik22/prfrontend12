@@ -30,7 +30,7 @@ export default function ProfileCard() {
           <h4 className="m-5 font-pixel text-2xl font-bold text-white">{intro.tit}</h4>
 
           <div className="w-64 text-center text-white text-lg m-1">{intro.quote}</div>
-          
+          <div className="w-64 text-center text-blue-600 text-lg m-1 font-semibold">Prize Pool: {intro.prize}</div>
           <div className="w-64 text-center text-blue-600 text-lg m-1 font-semibold">Particpation type: {intro.par}</div>
           <div className="w-64 text-center text-blue-600 text-lg m-1 font-bold">FEE: {intro.reg}</div>
 
