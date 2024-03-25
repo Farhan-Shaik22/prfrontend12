@@ -225,7 +225,7 @@ const duction = {
         par:"Solo",
         reg:"INR 50",
         qr:"/50.jpg",
-        insta:"https://www.instagram.com/kaivalya_official/"
+        insta:"https://www.instagram.com/abhinayathedramaclub/"
       },
       
       
