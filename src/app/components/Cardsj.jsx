@@ -15,6 +15,8 @@ export default function ProfileCard() {
   };
 
   return (
+    <>
+    <h2 className="text-center font-semibold font-pixel text-red-600 text-4xl my-6">Kindly note that you can only register to one Esports activity</h2>
     <div className="mt-4 grid grid-cols-3 mob:grid-cols-1 tab:grid-cols-2">
       {duction.all.map((intro) => (
         <div
@@ -57,5 +59,6 @@ export default function ProfileCard() {
         </div>
       ))}
     </div>
+    </>
   );
 }
