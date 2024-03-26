@@ -1,9 +1,11 @@
 'use client';
 import React, { useState } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 import axios from 'axios';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
 import { Select, Option } from '@material-tailwind/react'; // Import the Select component from your UI library
 import Footer from "../components/Footer";
+
 
 
 export default function SimpleRegistrationForm() {
@@ -111,9 +113,11 @@ export default function SimpleRegistrationForm() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
+          <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_SITE_KEY} />
           <Button type="submit" className="mt-6 " fullWidth>
             Sign up
           </Button>
+
         </form>
       </Card>
     </div>
