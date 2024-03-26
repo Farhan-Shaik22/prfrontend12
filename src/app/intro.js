@@ -182,7 +182,7 @@ const duction = {
         quote: "\"Spin the wheel: Let your art do the talking in this game of chance and skill by spinning the wheel and creating a masterpiece to secure the price. \" ",
         par:"Solo",
         reg:"INR 75",
-        prize:"₹2000",
+        prize:"₹1500",
         qr:"/75.jpg",
         insta:"https://www.instagram.com/aakarshanofficial/"
       },
