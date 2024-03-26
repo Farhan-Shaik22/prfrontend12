@@ -14,11 +14,19 @@ export default function SimpleRegistrationForm() {
   const [college, setCollege] = useState('');
   const [mobile, setMobile] = useState('');
   const [password, setPassword] = useState('');
+  const [captcha,setcaptcha] = useState('');
 
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      if(captcha === ''){
+        window.alert("Please verify the captcha");
+        return;
+      }
+      else{
+        console.log(captcha);
+      }
       const response = await axios.post('https://backend-fypg.onrender.com/api/register', {
         name,
         rollNumber,
@@ -113,7 +121,7 @@ export default function SimpleRegistrationForm() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_SITE_KEY} />
+          <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_SITE_KEY} onChange={setcaptcha} />
           <Button type="submit" className="mt-6 " fullWidth>
             Sign up
           </Button>
