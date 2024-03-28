@@ -106,7 +106,7 @@ const duction = {
 
       {
         id: "4",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/258731026_459779118901767_1434310398993580285_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=EuN9XHtBwJkAX_bmxqT&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfAjaUnzrNfiTyGJEJxtpmrbIX8aFgjOri6KDG_GW08GXA&oe=660215D8&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/258731026_459779118901767_1434310398993580285_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=10FM00XRWJUAX9n6E3j&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfAS8boFIdh859sD33ZpaABPMdtr2vUFwjXwsx1ebAnPQA&oe=6609FED8&_nc_sid=10d13b",
         name: "Aalap 1",
         venue: "B block- FS 1 - Evening",
         tit:"SOLO MELODIES",
@@ -120,7 +120,7 @@ const duction = {
 
       {
         id: "5",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/258731026_459779118901767_1434310398993580285_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=EuN9XHtBwJkAX_bmxqT&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfAjaUnzrNfiTyGJEJxtpmrbIX8aFgjOri6KDG_GW08GXA&oe=660215D8&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/258731026_459779118901767_1434310398993580285_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=10FM00XRWJUAX9n6E3j&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfAS8boFIdh859sD33ZpaABPMdtr2vUFwjXwsx1ebAnPQA&oe=6609FED8&_nc_sid=10d13b",
         name: "Aalap 2",
         venue: "Auditorium - Morning",
         tit:"MELODY MANIA",
@@ -189,7 +189,7 @@ const duction = {
 
       {
         id: "9",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/231585681_831325504186531_5797848488481493219_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=r50hr0lRy0gAX_CDIzC&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA4GA-z6GF315n4tRp70swD2VAQaxMzoJ7TZJ5uGCbAJw&oe=660195A8&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/231585681_831325504186531_5797848488481493219_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=RkHVcQTexHoAX84pUzM&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfC3owDjM4QzMJjpUTdxRiqH3Y_SWhbuvaotd7LIhK0b5A&oe=66097EA8&_nc_sid=10d13b",
         name: "Aakarshan",
         venue: "Stall - From 11 am",
         tit:"SPIN THE WHEEL",
@@ -202,7 +202,7 @@ const duction = {
       },
       {
         id: "21",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/231585681_831325504186531_5797848488481493219_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=r50hr0lRy0gAX_CDIzC&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA4GA-z6GF315n4tRp70swD2VAQaxMzoJ7TZJ5uGCbAJw&oe=660195A8&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/231585681_831325504186531_5797848488481493219_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=RkHVcQTexHoAX84pUzM&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfC3owDjM4QzMJjpUTdxRiqH3Y_SWhbuvaotd7LIhK0b5A&oe=66097EA8&_nc_sid=10d13b",
         name: "Aakarshan 2",
         tit:"DOODLE DASH",
         venue: "B Block-413 - From 11 am",
@@ -217,7 +217,7 @@ const duction = {
 
       {
         id: "10",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/324910135_5956884101001489_5671979558690848789_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=5TnSGkmWrwEAX8oaiNB&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfC0ZObtYShTiApjzth7Rlg0VkGzy8ShonepaKD7kLWF7g&oe=66027CA9&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/324910135_5956884101001489_5671979558690848789_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=k20N4ogEx4EAX_k773o&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfCeCAtTn7ZcQu18PY9eohJ4I-2kbpkcvh6DfuzF5lpJIQ&oe=660A65A9&_nc_sid=10d13b",
         name: "Riti",
         venue: "B Block-407 - Full day",
         tit:"LUDO",
@@ -261,7 +261,7 @@ const duction = {
 
       {
         id: "13",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/39763914_343792263052808_3984688769658781696_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=k9mptA7Od5EAX8ceEWL&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfCgc1GUngbQyxIXnKHnuzenHQUs96OGILBNA1z68v542w&oe=66038F37&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/39763914_343792263052808_3984688769658781696_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=9dQa_o_CqOUAX8WY3U6&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfBDdiFda9ZOlFR2ZChQpT8J4Uln83iUvq2PZQrSuRFYSg&oe=66097DF7&_nc_sid=10d13b",
         name: "Traces Of Lenses",
         venue: "Campus - From 11 am",
         tit:"CAPTURE QUEST",
@@ -275,7 +275,7 @@ const duction = {
 
       {
         id: "14",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/285363858_998732150843465_1089754243808318901_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=dPhbP-GbSqMAX8M397f&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfAt9bCpyuNE_c8RhoCrOw6gXMw0jp_uu-zvgRrrtcncmQ&oe=66041B36&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/285363858_998732150843465_1089754243808318901_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=zW2_qj3zxlAAX-PdoRb&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfDVB3Plx4InD3I5Lt8_r5NgMx7_F7Oha2GQTb93uMSLqg&oe=660A09F6&_nc_sid=10d13b",
         name: "Kaivalya",
         tit:"YOGA COMPETITION",
         venue: "Lawn - Full day",
@@ -289,7 +289,7 @@ const duction = {
 
       {
         id: "15",
-        image:"https://scontent.cdninstagram.com/v/t51.2885-19/65730805_964871123844995_157515602003492864_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=lRzVK1cZ6sAAX9EoyEG&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfBdI9VmifBxR2-_5TSh_qj6grJCWX-dm6zspihaphJ2Tg&oe=6603FAF0&_nc_sid=10d13b",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/65730805_964871123844995_157515602003492864_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=JUR5aOjpWAkAX-c6u4Z&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfCmGjgGh2sJrPtTrL-r4tDZVwVajlwz5swQlfUY40OLtw&oe=6609E9B0&_nc_sid=10d13b",
         name: "Abhinaya",
         venue: "A Block-Drawing Room - From 12 pm",
         tit:"RANGASTHALAM",
@@ -300,6 +300,180 @@ const duction = {
         prize:"₹3000",
         insta:"https://www.instagram.com/abhinayathedramaclub/"
       },
+
+      {
+        id: "22",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/65730805_964871123844995_157515602003492864_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=JUR5aOjpWAkAX-c6u4Z&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfCmGjgGh2sJrPtTrL-r4tDZVwVajlwz5swQlfUY40OLtw&oe=6609E9B0&_nc_sid=10d13b",
+        name: "abunpaid1",
+        venue: "Block B - Room No 414 From 2pm",
+        tit:"Meme Recreation",
+        quote: "\" A fun activity where the participants can choose any one of the given memes and recreate it by the end of the day.\"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Something Exciting",
+        insta:"https://www.instagram.com/abhinayathedramaclub/"
+      },
+
+      {
+        id: "23",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/65730805_964871123844995_157515602003492864_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=JUR5aOjpWAkAX-c6u4Z&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfCmGjgGh2sJrPtTrL-r4tDZVwVajlwz5swQlfUY40OLtw&oe=6609E9B0&_nc_sid=10d13b",
+        name: "abunpaid2",
+        venue: "Block B - Room No 415 From 2pm",
+        tit:"Movie Discussions",
+        quote: "\" Why don't you jump in for a lively discussion about screenplay, scriptwriting,and character development in movies? \"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Something Exciting",
+        insta:"https://www.instagram.com/abhinayathedramaclub/"
+      },
+      {
+        id: "24",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/231585681_831325504186531_5797848488481493219_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=r50hr0lRy0gAX_CDIzC&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA4GA-z6GF315n4tRp70swD2VAQaxMzoJ7TZJ5uGCbAJw&oe=660195A8&_nc_sid=10d13b",
+        name: "aakunpaid1",
+        tit:"Back Drawing Charades",
+        venue: "B Block-412 - From 11 am",
+        quote: "\"This activity entails a team of people where a word is given, and the first person on the team draws it on the back of the person next in line. This continues until it reaches the last person. The drawings made by the first and last persons can be compared for accuracy, or the last person can attempt to guess the word.\" ",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/aakarshanofficial/"
+      },
+      {
+        id: "25",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/231585681_831325504186531_5797848488481493219_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=r50hr0lRy0gAX_CDIzC&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA4GA-z6GF315n4tRp70swD2VAQaxMzoJ7TZJ5uGCbAJw&oe=660195A8&_nc_sid=10d13b",
+        name: "aakunpaid2",
+        tit:"Ground Tic Tac Toe",
+        venue: "Main Ground From 11 am",
+        quote: "\"This activity entails a team of people where a word is given, and the first person on the team draws it on the back of the person next in line. This continues until it reaches the last person. The drawings made by the first and last persons can be compared for accuracy, or the last person can attempt to guess the word.\" ",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/aakarshanofficial/"
+      },
+
+      {
+        id: "26",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/285363858_998732150843465_1089754243808318901_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=zW2_qj3zxlAAX-PdoRb&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfDVB3Plx4InD3I5Lt8_r5NgMx7_F7Oha2GQTb93uMSLqg&oe=660A09F6&_nc_sid=10d13b",
+        name: "kaiunpaid",
+        tit:"24 min Yoga Launch",
+        venue: "Lawn - Full day",
+        quote: "\" Yoga Competition: Embrace calmness amid chaos, and exhibit your sense of balance and control over your body through fun yoga asanas.  \"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"/50.jpg",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/kaivalya_official/"
+      },
+
+      {
+        id: "27",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid1",
+        tit:"Remote Race Maze",
+        venue: "Ground-Goal Post",
+        quote: "\"Navigate your remote-controlled car through a labyrinth of twists and turns, competing against friends to reach the finish line first in this exhilarating maze challenge. \"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      },
+      {
+        id: "28",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid2",
+        tit:"FuturEscape: Time Warp Edition",
+        venue: "Block A - ELCS",
+        quote: "\"Step into the future-themed escape room where time is ticking. Solve puzzles, unravel mysteries, and race against the clock to unlock the secrets of the future and escape before time runs out. \"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      },
+      {
+        id: "29",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid3",
+        tit:"Dr. Parking Pro",
+        venue: "Ground-GoalPost",
+        quote: "\"Test your precision and parking skills in this thrilling game. As Dr. Parking, you'll maneuver through challenging obstacles, tight spaces, and complex scenarios to prove you're the ultimate parking pro.\"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      },
+      {
+        id: "30",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid4",
+        tit:"Memory Match Mania",
+        venue: "Not Yet Decided",
+        quote: "\"Challenge your memory and concentration with this addictive card matching game. Flip cards to find pairs and match them before time runs out, unlocking new levels of difficulty and excitement.\"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      },
+      {
+        id: "31",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid5",
+        tit:"Imposter Infiltration: Among Us IRL",
+        venue: "OC STALL",
+        quote: "\"Experience the thrill of being an imposter or a crewmate in real life! Work together to complete tasks and uncover the imposter among you, but beware – the imposter is on a mission to sabotage and eliminate the crew one by one.\"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      },
+      {
+        id: "32",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid6",
+        tit:"Wheel of Fortune: Spin Challenge",
+        venue: "NOT YET DECIDED",
+        quote: "\"Spin the wheels and take on various challenges in this exciting game of luck and skill. From trivia questions to daring dares, each spin brings a new twist to the competition.\"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      },
+      {
+        id: "33",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid7",
+        tit:"Angry Birds: Catapult Chaos",
+        venue: "OC Stall",
+        quote: "\"Channel your inner bird flinger and catapult real-life Angry Birds at elaborate structures, aiming to knock down targets and earn points in this exhilarating outdoor game of skill and strategy.\"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      },
+      {
+        id: "34",
+        image:"https://scontent.cdninstagram.com/v/t51.2885-19/89830456_629648507834463_2328608401761763328_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=fWbLrG7UNvYAX9WyB_O&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfA8t0P-_cqrfwoH0QTBikVQxJMCbfWlGlwynIO2ga_dGQ&oe=660A9A9E&_nc_sid=10d13b",
+        name: "ocunpaid8",
+        tit:"Rocket Rush: RC League",
+        venue: "Ground-GoalPost",
+        quote: "\"Strap in and get ready for high-octane action as you pilot remote-controlled cars in an electrifying game of Rocket League. Score goals, perform aerial maneuvers, and outmaneuver your opponents to become the ultimate RC League champion. \"",
+        par:"Solo",
+        reg:"Free!!!",
+        qr:"-",
+        prize:"Exciting Prizes",
+        insta:"https://www.instagram.com/oc.kmit/"
+      }
+
       
       
     ]

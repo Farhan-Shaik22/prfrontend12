@@ -44,10 +44,24 @@ export default function ClubTransaction() {
     "Abhinaya",
     "E-Sports 1",
     "E-Sports 2",
-    "E-Sports 3"
+    "E-Sports 3",
+    "abunpaid1",
+    "abunpaid2",
+    "aakunpaid1",
+    "aakunpaid2",
+    "kaiunpaid",
+    "ocunpaid1",
+    "ocunpaid2",
+    "ocunpaid3",
+    "ocunpaid4",
+    "ocunpaid5",
+    "ocunpaid6",
+    "ocunpaid7",
+    "ocunpaid8",
+
   ]
   ;
-  const caps =[50, 50, 50,50,100, 75, 100,50,75, 75, 1000, 24, 1000, 1000, 1000, 1000, 1000, 32, 32, 32]
+  const caps =[50, 50, 50,50,100, 75, 100,50,75, 75, 1000, 24, 1000, 1000, 1000, 1000, 1000, 32, 32, 32 ,0,0,0,0,0]
 
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
