@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
 import axios from 'axios';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
 import { Select, Option } from '@material-tailwind/react'; // Import the Select component from your UI library
@@ -14,7 +13,6 @@ export default function SimpleRegistrationForm() {
   const [college, setCollege] = useState('');
   const [mobile, setMobile] = useState('');
   const [password, setPassword] = useState('');
-  const [captcha,setcaptcha] = useState('');
 
   
   const handleSubmit = async (e) => {
@@ -121,7 +119,6 @@ export default function SimpleRegistrationForm() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_SITE_KEY} onChange={setcaptcha} />
           <Button type="submit" className="mt-6 " fullWidth>
             Sign up
           </Button>
