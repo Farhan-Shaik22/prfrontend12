@@ -25,7 +25,7 @@ export default function SimpleRegistrationForm() {
       else{
         console.log(captcha);
       }
-      const response = await axios.post('https://backend-fypg.onrender.com/api/register', {
+      const response = await axios.post('https://backend-silk-iota.vercel.app/', {
         name,
         rollNumber,
         college,
