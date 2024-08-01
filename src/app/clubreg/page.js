@@ -74,7 +74,7 @@ export default function ClubTransaction() {
 
   useEffect(() => {
     if (id) {
-      axios.get(`https://backend-fypg.onrender.com/api/clubRegistrationCount/${duction.all.find(profile => profile.id === id)?.name}`)
+      axios.get(`https://backend-silk-iota.vercel.app/${duction.all.find(profile => profile.id === id)?.name}`)
         .then(response => {
           if (response.data.success) {
             setRegistrationCount(response.data.count);
@@ -93,7 +93,7 @@ export default function ClubTransaction() {
 
   useEffect(() => {
     if (id && rollNumber) {
-      axios.get(`https://backend-fypg.onrender.com/api/clubs/${rollNumber}`)
+      axios.get(`https://backend-silk-iota.vercel.app/api/clubs/${rollNumber}`)
         .then(response => {// Log response data
           if (response.data.success) {
             const { clubs } = response.data; // Extract clubs array from response.data
@@ -117,7 +117,7 @@ export default function ClubTransaction() {
     if(transactionId.length===12){
     try {
       const response = await axios.put(
-        `https://backend-fypg.onrender.com/api/students/${rollNumber}`,
+        `https://backend-silk-iota.vercel.app/api/students/${rollNumber}`,
         { club: duction.all.find(profile => profile.id === id)?.name, transactionId },
         {
           headers: {
