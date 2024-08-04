@@ -74,7 +74,7 @@ export default function ClubTransaction() {
 
   useEffect(() => {
     if (id) {
-      axios.get(`backend-production-0d68.up.railway.app/${duction.all.find(profile => profile.id === id)?.name}`)
+      axios.get(`https://backend-production-0d68.up.railway.app/${duction.all.find(profile => profile.id === id)?.name}`)
         .then(response => {
           if (response.data.success) {
             setRegistrationCount(response.data.count);
@@ -93,7 +93,7 @@ export default function ClubTransaction() {
 
   useEffect(() => {
     if (id && rollNumber) {
-      axios.get(`backend-production-0d68.up.railway.app/api/clubs/${rollNumber}`)
+      axios.get(`https://backend-production-0d68.up.railway.app/api/clubs/${rollNumber}`)
         .then(response => {
           if (response.data.success) {
             const { clubs } = response.data; 
@@ -117,7 +117,7 @@ export default function ClubTransaction() {
     if(transactionId.length===12){
     try {
       const response = await axios.put(
-        `backend-production-0d68.up.railway.app/api/students/${rollNumber}`,
+        `https://backend-production-0d68.up.railway.app/api/students/${rollNumber}`,
         { club: duction.all.find(profile => profile.id === id)?.name, transactionId },
         {
           headers: {
