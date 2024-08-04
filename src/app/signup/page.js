@@ -25,7 +25,7 @@ export default function SimpleRegistrationForm() {
       else{
         console.log(captcha);
       }
-      const response = await axios.post('https://backend-silk-iota.vercel.app', {
+      const response = await axios.post('backend-production-0d68.up.railway.app', {
         name,
         rollNumber,
         college,

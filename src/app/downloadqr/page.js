@@ -14,7 +14,7 @@ export default function QRCodeGenerator() {
 
   const generateQRCode = async () => {
     try {
-      const response = await axios.post('https://backend-silk-iota.vercel.app/api/generateQR', {
+      const response = await axios.post('backend-production-0d68.up.railway.app/api/generateQR', {
         rollNumber: rollNumber,
         year: new Date().getFullYear() // Assuming you want to use the current year
       });
