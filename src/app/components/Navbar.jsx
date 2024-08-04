@@ -117,16 +117,15 @@ export default function StickyNavbar() {
                 </Link>
               </>
               )}
-              
               <Button
-                variant="gradient"
-                size="sm"
-                className="hidden lg:inline-block"
-                disabled={token != ''}
+                  variant="gradient"
+                  size="sm"
+                  className="hidden lg:inline-block"
+                  disabled={!(token === '')}
+                  onClick={() => window.location.href = "/signup"}
                 >
-                <Link href="/signup"></Link>
-                <span> Register </span>
-              </Button>
+                  <span> Register </span>
+                </Button>
             </div>
             <IconButton
               variant="text"
