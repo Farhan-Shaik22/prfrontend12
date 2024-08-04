@@ -16,7 +16,7 @@ export default function QRCodeGenerator() {
     try {
       const response = await axios.post('backend-production-0d68.up.railway.app/api/generateQR', {
         rollNumber: rollNumber,
-        year: new Date().getFullYear() // Assuming you want to use the current year
+        year: new Date().getFullYear() 
       });
       setQRCodeUrl(response.data.qrCodeUrl);
       setError('');

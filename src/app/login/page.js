@@ -17,9 +17,6 @@ export default function LoginForm() {
       });
 
       localStorage.setItem('token', response.data.token);
-
-      // Redirect to the desired page after successful login
-      // Replace 'redirectToPage' with the actual page you want to redirect to
       window.location.href = '/clubs';
     } catch (error) {
       alert("Invalid Credentials")

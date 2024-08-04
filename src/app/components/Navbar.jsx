@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import Link from 'next/link';
 import {
   Navbar,
@@ -8,13 +8,37 @@ import {
   Button,
   IconButton,
   Collapse,
+  Dialog,
+  DialogHeader,
+  DialogBody,
+  DialogFooter  
 } from "@material-tailwind/react";
+import { jwtDecode } from 'jwt-decode';
 
 export default function StickyNavbar() {
   const [openNav, setOpenNav] = useState(false);
+  const [rollNumber, setRollNumber] = useState('');
+  const [token, setToken] = useState('');
+  const [openModal, setOpenModal] = useState(false);
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem('token');
+    if (storedToken) {
+      setToken(storedToken);
+      const decodedToken = jwtDecode(storedToken);
+      setRollNumber(decodedToken.rollNumber);
+    }
+  }, []);
 
   const handleToggleNav = () => {
     setOpenNav(!openNav);
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    setToken('');
+    setOpenModal(false);
+    window.location.href = '/login';
   };
 
   const navList = (
@@ -71,20 +95,34 @@ export default function StickyNavbar() {
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
-              <Link href="/login">
-                <Button
-                  variant="text"
-                  size="sm"
-                  className="hidden lg:inline-block text-white"
-                >
-                  <span> Log In</span>
-                </Button>
-              </Link>
+              {token ? (
+                <>
+                  <Button
+                    variant="text"
+                    size="sm"
+                    className="hidden lg:inline-block text-white"
+                    onClick={() => setOpenModal(true)}>
+                    <span> {rollNumber}</span>
+                  </Button>
+              </>
+              ) : (
+                <>
+                  <Link href="/login">
+                  <Button
+                    variant="text"
+                    size="sm"
+                    className="hidden lg:inline-block text-white">
+                    <span> Log In</span>
+                  </Button>
+                </Link>
+              </>
+              )}
               <Link href="/signup">
                 <Button
                   variant="gradient"
                   size="sm"
                   className="hidden lg:inline-block"
+                  disabled={!(token === '')}
                 >
                   <span> Register </span>
                 </Button>
@@ -132,7 +170,7 @@ export default function StickyNavbar() {
         <Collapse open={openNav}>
           <div className="flex flex-col lg:hidden">{navList}</div>
           <div className="flex items-center gap-x-1">
-            <Button fullWidth variant="text" size="sm" className="">
+            <Button fullWidth variant="text" size="sm" className="" >
               <span>Log In</span>
             </Button>
             <Button fullWidth variant="gradient" size="sm" className="">
@@ -141,6 +179,28 @@ export default function StickyNavbar() {
           </div>
         </Collapse>
       </Navbar>
+      <Dialog open={openModal} handler={setOpenModal}>
+        <DialogHeader>Logout</DialogHeader>
+        <DialogBody divider>
+          Are you sure you want to logout?
+        </DialogBody>
+        <DialogFooter>
+          <Button
+            variant="text"
+            color="red"
+            onClick={handleLogout}
+            className="mr-1"
+          >
+            <span>Logout</span>
+          </Button>
+          <Button
+            variant="gradient"
+            onClick={() => setOpenModal(false)}
+          >
+            <span>Cancel</span>
+          </Button>
+        </DialogFooter>
+      </Dialog>
     </div>
   );
 }

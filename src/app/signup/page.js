@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Card, Input, Button, Typography } from "@material-tailwind/react";
-import { Select, Option } from '@material-tailwind/react'; // Import the Select component from your UI library
+import { Select, Option } from '@material-tailwind/react';
 import Footer from "../components/Footer";
 
 
