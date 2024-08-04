@@ -122,7 +122,7 @@ export default function StickyNavbar() {
                   variant="gradient"
                   size="sm"
                   className="hidden lg:inline-block"
-                  disabled={!(token === '')}
+                  disabled={token != ''}
                 >
                   <span> Register </span>
                 </Button>
