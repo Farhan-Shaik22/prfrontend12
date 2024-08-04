@@ -11,10 +11,12 @@ export default function QRCodeGenerator() {
   const [rollNumber, setRollNumber] = useState('');
   const [qrCodeUrl, setQRCodeUrl] = useState('');
   const [error, setError] = useState('');
-
+  const axiosInstance = axios.create({
+    baseURL: 'https://backend-production-0d68.up.railway.app', 
+  });
   const generateQRCode = async () => {
     try {
-      const response = await axios.post('https://backend-production-0d68.up.railway.app/api/generateQR', {
+      const response = await axiosInstance.post('/api/generateQR', {
         rollNumber: rollNumber,
         year: new Date().getFullYear() 
       });

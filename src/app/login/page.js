@@ -7,11 +7,13 @@ import Footer from "../components/Footer";
 export default function LoginForm() {
   const [rollNumber, setRollNumber] = useState('');
   const [password, setPassword] = useState('');
-
+  const axiosInstance = axios.create({
+    baseURL: 'https://backend-production-0d68.up.railway.app', 
+  });
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://backend-production-0d68.up.railway.app/api/login', {
+      const response = await axiosInstance.post('/api/login', {
         rollNumber,
         password,
       });
