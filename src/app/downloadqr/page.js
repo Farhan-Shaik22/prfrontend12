@@ -12,7 +12,7 @@ export default function QRCodeGenerator() {
   const [qrCodeUrl, setQRCodeUrl] = useState('');
   const [error, setError] = useState('');
   const axiosInstance = axios.create({
-    baseURL: 'https://backend-production-0d68.up.railway.app', 
+    baseURL: 'https://backend-production-8e81.up.railway.app', 
   });
   const generateQRCode = async () => {
     try {
