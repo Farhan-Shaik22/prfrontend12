@@ -26,7 +26,7 @@ export default function SimpleRegistrationForm() {
         console.log(captcha);
       }
       const axiosInstance = axios.create({
-        baseURL: 'https://backend-production-8e81.up.railway.app', 
+        baseURL: 'https://backend-production-720c.up.railway.app', 
       });
       const response = await axios.post('/api/register', {
         name,
